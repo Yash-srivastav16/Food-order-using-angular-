@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class CartItem {\n  constructor(food) {\n    this.quantity = 1;\n    this.food = food;\n  }\n  get price() {\n    return this.food.price * this.quantity;\n  }\n}","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

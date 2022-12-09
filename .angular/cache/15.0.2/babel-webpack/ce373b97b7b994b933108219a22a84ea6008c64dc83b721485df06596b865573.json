@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Cart {\n  constructor() {\n    this.items = [];\n  }\n  get totalPrice() {\n    let totalPrice = 0;\n    this.items.forEach(item => {\n      totalPrice += item.price;\n    });\n    return totalPrice;\n  }\n}","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
